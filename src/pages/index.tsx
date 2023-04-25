@@ -58,9 +58,9 @@ const Home: NextPage<Props> = () => {
                     year={2022}
                     score={8.5}
                     data={headerShows}
-                    url="https://vimeo.com/663520150"
-                    title="all of us are dead"
-                    desc="A high school becomes ground zero for a zombie virus outbreak. Trapped students must fight their way out — or turn into one of the rabid infected."
+                    url="https://vimeo.com/224820742"
+                    title="John Wick"
+                    desc="When a gangster's son steals his car and kills his dog, fearless ex-hit man John Wick takes on the entire mob to get his revenge."
                 />
                 {data.map(({ mainData, title }, index) => (
                     <MovieRows data={mainData} title={title} key={index} />
